@@ -33,7 +33,7 @@ while True:
     if prod.xpath('//td[@class="pagn-next"]/a/@href').extract()[0].encode('utf-8') == 'javascript:;':
         break 
 
-driver.quit
+driver.quit()
 
 import pickle
 

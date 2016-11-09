@@ -35,10 +35,6 @@ while True:
 
 driver.quit
 
-import pickle
-
-with open("all_products", 'wb') as f:
-    pickle.dump(products, f)    
-
+    
 print products
 
